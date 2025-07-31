@@ -1,0 +1,175 @@
+:root{
+    --bg-color:#eaf6ff;
+    --first-color:#1A4C93;
+    --second-color:#8da6c9;
+    --text-color:#333;
+}
+@font-face {
+    font-family: myFont1;
+    src: url(./font/052.ttf);
+}
+@font-face {
+    font-family: myFont2;
+    src: url(./font/Burmese\ Handwriting.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Fredoka One', cursive;
+}
+.card{
+    width:340px;
+    border: 4px solid var(--first-color);
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 38px;
+    position: relative;
+}
+.password-section{
+    text-align: center;
+    padding: 30px;
+}
+h3{
+    color: var(--first-color)
+}
+.password-section input{
+    padding: 20px;
+    width: 70%;
+    border-radius: 8px;
+    border: 2px solid var(--first-color);
+    font-size: 16px;
+    font-family: monospace;
+    margin-bottom: 25px;
+}
+.btn{
+    background-color: var(--second-color);
+    padding:12px 20px;
+    border-radius: 12px;
+    border: none;
+    color: var(--text-color);
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color: var(--first-color);
+    color: #fff;
+}
+#error-msg{
+    color: red;
+    font-size: 14px;
+    margin-top: 18px;
+}
+.footer{
+    background-color: var(--first-color);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: #fff;
+    font-family: monospace;
+    font-size: 11px;
+    padding: 3px 0;
+}
+
+.menu-bar{
+    height: 40px;
+    background-color: var(--second-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: bolder;
+    color: var(--text-color);
+    border-radius: 4px 4px 0 0;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.1);
+}
+.menu-buttons{
+    cursor: pointer;
+    border: 2px solid var(--first-color);
+    padding: 0 6px;
+    background-color: #fff;
+    color: var(--text-color);
+    font-size: 16px;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color)
+}
+.menu-buttons:hover{
+    background-color: var(--first-color);
+    color: #fff;
+}
+
+
+.title{
+    margin: 18px 0 10px 0;
+    font-size: 24px;
+    color: var(--first-color);
+    font-weight: bold;
+}
+img{
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.noBtn{
+    background-color: #fff;
+    border: 2px solid var(--second-color);
+    padding: 10px 20px;
+    margin-right: 10px;
+    transition: 0.4s;
+}
+.noBtn:hover{
+    background-color: var(--first-color);
+    color: #fff;
+    border-color: var(--first-color);
+}
+span{
+    font-size: 14px;
+}
+.wish-contents{
+    font-size: 16px;
+    color: var(--text-color);
+    text-align: justify;
+    padding: 0 20px;
+    font-family: myFont1;
+    line-height: 1.5rem;
+}
+.paraLineGap{
+    margin-bottom: 9px;
+}
+.surprise-text{
+    color: red;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 14px;
+    cursor: pointer;
+}
+i{
+    margin:  6px 5px 0 5px;
+    font-size: 19px;
+    color: var(--first-color);
+}
+.video-style{
+    margin: 21px 0 10px 0;
+}
+video{
+    max-width: 200px;
+}
